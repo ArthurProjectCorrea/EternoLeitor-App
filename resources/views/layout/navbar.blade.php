@@ -1,20 +1,21 @@
-<nav class=" border border-blue-500 bg-red-500 p-2 flex justify-between items-center">
-    <div class=" border border-blue-500">
+<nav class="border border-blue-500 bg-gray-100 dark:bg-gray-900 p-4 flex  items-center w-full">
+    <div class=" border border-blue-500 w-1/5 flex justify-center items-center">
         @include('layout.logo')
     </div>
-    <div>
-        <ul class=" border border-blue-500 flex gap-2 uppercase font-bold">
+    <div class="w-3/5">
+        <ul class="border border-blue-500 flex gap-4 uppercase font-bold">
             <li>
-                <a href="{{route('home.index')}}">Home</a>
+                <a href="{{route('home.index')}}">news</a>
             </li>
             <li>
-                <div>pesquisa</div>
+                <a href="">library</a>
             </li>
         </ul>
     </div>
-    {{-- <x-form.seach></x-form.seach> --}}
-    <div>
-        <div>notfic</div>
+    <div class="border border-blue-500 w-1/5 gap-4 flex">
+        <div>
+            <i class="fa-solid fa-bell"></i>
+        </div>
         <div>user</div>
     </div>
 </nav>

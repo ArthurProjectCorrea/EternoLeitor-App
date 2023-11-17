@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <div class="">
+
+    <div class="bg-gray-50 text-gray-900 ">
         <div>
             @include('layout.navbar')
         </div>
